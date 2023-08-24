@@ -1,0 +1,19 @@
+//Please use this commands after u read the code
+
+put "sde_bootcamp" "title" "SDE-Bootcamp" "price" 30000.00 "enrolled" "false" "estimated_time" 30
+
+
+search "title" "SDE_BOOTCAMP"
+search "price" 30000.0
+
+search "title" "SDE-Bootcamp"
+
+put "sde_kickstart" "title" "SDE-Kickstart" "price" 4000.00 "enrolled" "true" "estimated_time" 8
+put "sde_bootcamp" "title" "SDE-Bootcamp" "price" 30000.00 "enrolled" "true" "estimated_time" 30
+
+keys
+
+get "sde_bootcamp"
+
+search "enrolled" "true"
+delete "sde_bootcamp"
